@@ -1,22 +1,57 @@
+* {
+    box-sizing: border-box;
+}
 .collapse {
     justify-content: flex-end;
 }
 .nav-item {
     font-size: 20px;
 }
-.pandemic {
-    background-color: rgb(54, 121, 93);
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    font-size: 20px;
-    color: white;
-}
+
 .intro {
     margin: 50px 0;
     padding-top: 50px;
     padding-bottom: 35px;
     padding-left: 100px;
     padding-right: 100px;
-    background-color: rgb(199, 193, 193);
+    background-color: rgb(218, 208, 208);
+    
+}
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+   
+}
+img {
+    height: 300px;
+    width: 350px;
+    padding-right: 20px;
+    padding-bottom: 25px;
+}
+.jumbotron-fluid {
+    background-image: url("images/fire.jpg"); 
+    height: 350px;
+}
+.container {
+    background-color: seashell;
+    opacity: 0.9;
+    margin-top: 10px;
+    border-radius: 7px;
+    padding-bottom: 10px;
+    padding-top:10px;
+    
+    
+}
+.display-4, .lead {
+    font-weight: bold;
+}
+
+@media screen and (min-width: 760px) and (max-width: 990px) { 
+    img {
+        height: 250px;
+        width: 250px;
+        padding-right: 10px;
+    }
 }
