@@ -57,7 +57,7 @@ footer {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-@media screen and (min-width: 760px) and (max-width: 990px) { 
+@media screen and (min-width: 768px) and (max-width: 991.98px) { 
     img {
         height: 250px;
         width: 250px;
